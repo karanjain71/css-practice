@@ -1,0 +1,43 @@
+body{
+    background-color:  hsl(212, 45%, 89%)
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+img{
+    border-radius: 5%;
+    width: 20rem;
+    margin: 13px;
+    margin-bottom: 8px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(220, 15%, 55%);
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 17px;
+}

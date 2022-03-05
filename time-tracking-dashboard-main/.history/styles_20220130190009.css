@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* - Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%)
+
+### Neutral
+
+- Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%) */
+}
+body{
+    background-color: hsl(226, 43%, 10%)
+}
+
+.cards{
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    width: 25%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+}
+img{
+    width: 25%;
+    height: 25%;
+    object-fit: contain;
+    border: 3px white solid;
+    border-radius: 100%;
+    margin: 25px;
+}
+.card1-bigger {
+    background-color: hsl(246, 80%, 60%);
+    /* padding: 100px; */
+    border-radius: 10px;
+}
+
+p {
+    padding-left: 25px;
+    font-family: "Rubik";
+    font-weight: 300;
+    color: #666;
+    font-size: 18px;
+}
+.name{
+    font-size: 30px;
+}

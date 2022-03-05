@@ -1,0 +1,25 @@
+body{
+    background-color:  hsl(212, 45%, 89%)
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+  width: 350px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.card-content{
+    border-radius: 5%;
+  width: 20rem;
+  margin: 13px;
+  margin-bottom: 8px;
+}
+.img{
+    border-radius: 40%;
+}

@@ -1,0 +1,35 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+    margin-top: 90px;
+}
+h2{
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-weight: 900;
+}
+p{
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+}
+img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-plan{
+    display: flex;
+}

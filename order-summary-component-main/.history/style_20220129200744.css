@@ -1,0 +1,11 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    
+}
+img{
+    /* transform: scaleY(-1); */
+    /* transform: scaleX(-1); */
+}

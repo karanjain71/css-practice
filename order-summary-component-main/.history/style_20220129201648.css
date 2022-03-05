@@ -1,0 +1,20 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+}

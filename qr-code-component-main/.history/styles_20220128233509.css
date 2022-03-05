@@ -1,0 +1,23 @@
+body{
+    background-color:  hsl(212, 45%, 89%)
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    height: 400px;
+}
+.card-content{
+    /* justify-content: center; */
+    text-align: center;
+    padding: 20px;
+}
+.image{
+    border-radius: 5px;
+}
