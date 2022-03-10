@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+.overlay-image {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.top {
+    position: relative;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background: var(--very-pale-cyan);
+}
+.header {
+    position: relative;
+    padding: 2.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+button {
+    background: white;
+    border-radius: 1.8rem;
+    padding: 0.5rem 2.5rem ;
+    border: none;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+}
+
+button.get-started,button.community-button {
+    background: var(--pink);
+    color: white;
+    padding: 1rem 3.5rem ;
+}
+
+.banner {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--very-pale-cyan);
+    font-family: "Open Sans", sans-serif;
+    padding: 3rem 4rem 3rem 2rem;
+    z-index: 99;
+}
+
+.banner p {
+    font-family: "Open Sans", sans-serif;
+    padding: 0 0 2rem 0;
+    line-height: 1.6;
+    color: var(--very-dark-cyan);
+}
+
+.banner img {
+    width: 100%;
+    height: 30rem;
+}
+
+
+.banner .community {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--very-dark-cyan);
+}
+
+.description {
+    align-self: start;
+    padding: 6rem 3rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 5rem;
+    grid-gap: 2rem; 
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding-left: 4rem;
+}
+
+.card img {
+    height: 23rem;
+    padding: 3rem 2rem;
+}
+
+.card2 {
+    flex-direction: row-reverse;
+}
+
+.card-desc {
+    align-self: center;
+    padding: 4rem 3rem;
+}
+
+.card1 .card-desc, .card3 .card-desc {
+    padding-right: 12rem;
+}
+
+
+.card-desc h1 {
+    color: var(--very-dark-cyan);
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.card-desc p {
+    color: var(--grayish-blue);
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+}
+
+.card2 img {
+    padding-right: 11rem;
+}
+
+img {
+     color: var(--very-pale-cyan);
+}
+
+.footer {
+    /* position: relative; */
+    /* margin-top: 100rem; */
+    background: var(--very-dark-cyan);
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9rem;
+    /* z-index: ; */
+}
+
+.footer-items {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    color: var(--very-pale-cyan);
+    grid-column-gap: 5rem;
+    padding: 3rem 5rem;
+
+}
+
+
+
+.company-info{
+    display: grid;
+    grid-row-gap: 1rem;
+    align-items: center;
+}
+
+.about-us,.contact-us {
+    display: grid;
+    grid-row-gap: 1rem;
+    padding: 0 0 5rem 0;
+}
+
+.footer-item-1 {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 1rem;
+    align-items: top;
+
+}
+
+.footer-item-1>p {
+    margin-bottom: -10px;
+}
+
+.community-footer-add {
+    margin-top: 20rem;
+    margin-bottom: 0;
+}
+
+.community-build {
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+    z-index: 1;
+    left: 25%;
+    margin-top: -11rem;
+    padding: 5rem 4rem 4rem 1rem;
+    border-radius: 10px;
+
+}
+
+.community-heading,.community-button {
+    margin-left: 6rem;
+}
+
+.community-heading {
+    font-family: "Roboto", sans-serif;
+    color: var(--very-dark-cyan);
+    font-size: 1.9rem;
+}
+
+button.community-button {
+    margin: 2rem 0 0 12rem;
+    border-radius: 30px;
+    padding: 1.4rem 5rem;
+    border: none;
+}
+
+.footer-logo {
+    margin-left: 5rem;
+    margin-top: 12rem;
+}
+
+.fa-brands {
+    border-radius: 100%;
+    border: 0.7px solid white;
+    padding: 0.5rem;
+    margin: 0 0.5em;
+}
+.fa-facebook-f {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+.copyright {
+    display: flex;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    flex-direction: row-reverse;
+    padding: 0 0 3rem 0;
+    margin: 0 4rem 0rem 3rem;
+    font-size: 0.8rem;
+
+}
+
+
