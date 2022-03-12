@@ -27,6 +27,7 @@ const cart = document.querySelector('.cart')
 const cartPrice = document.querySelector('.cart-price')
 const cartItems = document.querySelector('.cart-items')
 const cartButton = document.querySelector('.cart-button')
+const cartSize = document.querySelector('.cart-size')
 // Writing the addEventListener functions
 
 console.log(cart)
@@ -108,6 +109,12 @@ const changeCartContent = () => {
                 <img src="images/icon-delete.svg" alt="" class="cart-item-remove">`
     }
 }
+const updateCartValue = () => {
+    if(cartTotal){
+        cartSize.classList.remove('hidden')
+    }
+    cartSize.innerHTML = cartTotal
+}
 
 const toggleCartModal = () => {
     cartModalOpened=!cartModalOpened;
@@ -123,6 +130,7 @@ const toggleCartModal = () => {
         profileImage.classList.remove('cart-active')
     }
     changeCartContent()
+
 }
 
 const closeCartModal = () => {
@@ -134,7 +142,8 @@ const addToCartFunction = () => {
     currentItems=0; 
     items.textContent = currentItems
     console.log(cartPrice)
-    changeCartContent()    
+    changeCartContent()   
+    updateCartValue() 
     // cartItems.innerHTML = `
     //             <img src="images/image-product-1-thumbnail.jpg" class="cart-item item-image"></img>
     //             <div class="cart-item item-desc">
