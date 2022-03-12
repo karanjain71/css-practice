@@ -9,10 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
-
+  <script src="script.js" async></script>
   <title>E-commerce product page</title>
-
+  
 </head>
 <body>
   <div class="header">
@@ -31,11 +30,33 @@
       <img class="cart-image" src="images/icon-cart.svg" alt="Cart logo">
     </div>
   </div>
+  <div class="cart hidden">
+    <h1 class="cart-heading">Cart</h1>
+    <div class="cart-divider"></div>
+    <div class="cart-items">
+      <img src="images/image-product-1-thumbnail.jpg" class="cart-item item-image"></img>
+      <div class="cart-item item-desc">
+        <p class="item-name">
+          Fall Limited Edition Sneakers
+        </p>
+        <p class="cart-price">
+          
+        </p>
+      </div>
+      <img src="images/icon-delete.svg" alt="" class="cart-item-remove">
+    </div>
+    <button class="cart-button">Checkout</button>
+  </div>
   <div class="divider"></div>
   <div class="description">
     <div class="description-images">
       <img class="description-banner" src="images/image-product-1.jpg" alt="">
-      <div class="thumbnails"></div>
+      <div class="thumbnails">
+        <img src="images/image-product-1-thumbnail.jpg" alt="" class="thumbnail-image">
+        <img src="images/image-product-2-thumbnail.jpg" alt="" class="thumbnail-image">
+        <img src="images/image-product-3-thumbnail.jpg" alt="" class="thumbnail-image">
+        <img src="images/image-product-4-thumbnail.jpg" alt="" class="thumbnail-image">
+      </div>
     </div>
     <div class="description-full">
       <p class="description-category">SNEAKER COMPANY</p>
@@ -49,17 +70,29 @@
         <p class="discount">50%</p>
       </div>
       <p class="original-price">$250.00</p>
-    
+      
       <div class="button-group">
         <div class="button counter">
           <i class="icon-minus"></i>
-          <p class="cart-size">0</p>
+          <p class="current-items">0</p>
           <i class="icon-plus"></i>
         </div>
         <button class="button add-to-cart" id="buttonId">
           Add to cart</button>
+        </div>
       </div>
     </div>
-  </div>
+    <div class="zoomed hidden">
+      <img src="images/icon-close.svg" alt="" class="close-icon">
+      <img src="images/image-product-1.jpg" alt="" class="zoomed-main-image">
+      <img src="images/icon-previous.svg" alt="" class="previous-icon">
+      <img src="images/icon-next.svg" alt="" class="next-icon">
+      <div class="zoomed-thumbnails">
+        <img src="images/image-product-1-thumbnail.jpg" alt="" class="zoomed-thumbnail-image">
+        <img src="images/image-product-2-thumbnail.jpg" alt="" class="zoomed-thumbnail-image">
+        <img src="images/image-product-3-thumbnail.jpg" alt="" class="zoomed-thumbnail-image">
+        <img src="images/image-product-4-thumbnail.jpg" alt="" class="zoomed-thumbnail-image">
+      </div>
+    </div>
 </body>
 </html>
